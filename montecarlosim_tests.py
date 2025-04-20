@@ -3,7 +3,7 @@ import unittest
 import pandas as pd
 import numpy as np
 import pandas.testing as pdt
-
+from montecarlo.montecarlosim_classes import die, game, analyzer
 #Test via Unittest package containing at least one method for each method in each of the three classes 
 #Each test method should verify that the target method creates an appropriate data structure
 class montecarlosimTestSuite(unittest.TestCase):
