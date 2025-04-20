@@ -6,5 +6,5 @@ setup(name='Montecarlo Simulator',
      author = 'Catherine Smith',
      author_email = 'cmj4ec@virginia.edu',
      license='MIT',
-     packages=['montecarlosim'],
+     packages=['montecarlo'],
      install_requires=['numpy', 'pandas'])
